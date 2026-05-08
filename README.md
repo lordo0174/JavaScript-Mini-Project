@@ -1,44 +1,46 @@
-# Web Development Practice: Logic & Games 🚀
+# Práctica de Desarrollo Web: Lógica y Juegos 🚀
 
-This repository contains two interactive web projects focused on mastering **Vanilla JavaScript**, **DOM manipulation**, and **CSS animations**. 
-
-## 📁 Project 1: Automated Chessboard
-A dynamic 8x8 chessboard generated entirely through programming logic, avoiding manual HTML repetition.
-
-### 📋 Features
-*   **Dynamic Rendering:** Uses nested `for` loops to create the 64 squares.
-*   **Logic-Based Styling:** Implements the mathematical condition `(i + j) % 2 === 0` to automatically toggle tile colors.
-*   **Initial Setup:** Populates the board with Unicode chess pieces (emojis) in their official starting positions.
-*   **Responsive Design:** Utilizes **CSS Grid** for perfect alignment and a professional look.
-
-### 🛠️ Technical Skills
-*   Algorithm design (Nested loops & Modulo operator).
-*   DOM Manipulation (`document.createElement` & `appendChild`).
-*   Advanced CSS Grid layouts.
+Este repositorio contiene dos proyectos web interactivos enfocados en el dominio de **Vanilla JavaScript**, **manipulación del DOM** y **animaciones CSS**.
 
 ---
 
-## 📁 Project 2: Side-Scroller Mini-Game
-A "Dino Run" style arcade game where the player must dodge obstacles to survive.
+## 📁 Proyecto 1: Tablero de Ajedrez Automatizado
+Un tablero de ajedrez dinámico de 8x8 generado íntegramente mediante lógica de programación, evitando la repetición manual de código HTML.
 
-### 📋 Features
-*   **Fluid Physics:** Uses `cubic-bezier` timing functions in CSS to simulate a natural, gravity-based jump.
-*   **Collision System:** Implements a high-precision detection engine using `getBoundingClientRect()` to detect impacts even while the character is mid-air.
-*   **Score System:** A real-time counter that tracks survival time.
-*   **Event Handling:** Listens for keyboard inputs (`Space` bar) to trigger game actions.
+### 📋 Características
+*   **Renderizado Dinámico:** Utiliza bucles `for` anidados para crear las 64 casillas.
+*   **Estilo Basado en Lógica:** Implementa la condición matemática `(i + j) % 2 === 0` para alternar automáticamente los colores de las celdas.
+*   **Configuración Inicial:** Puebla el tablero con piezas de ajedrez (emojis/Unicode) en sus posiciones oficiales.
+*   **Diseño Responsivo:** Utiliza **CSS Grid** para lograr una alineación perfecta y un aspecto profesional.
 
-### 🛠️ Technical Skills
-*   Game loop logic and state management.
-*   CSS Keyframe animations.
-*   Real-time collision detection (2D Hitbox logic).
-*   Asynchronous programming (`setTimeout` & `setInterval`).
+### 🛠️ Habilidades Técnicas
+*   Diseño de algoritmos (Bucles anidados y operador Módulo).
+*   Manipulación del DOM (`document.createElement` y `appendChild`).
+*   Layouts avanzados con **CSS Grid**.
 
 ---
 
-## 🚀 Getting Started
+## 📁 Proyecto 2: Mini-Juego de Desplazamiento Lateral
+Un juego arcade estilo "Dino Run" donde el jugador debe esquivar obstáculos para sobrevivir.
 
-You can run these projects locally without any installation or servers.
+### 📋 Características
+*   **Física Fluida:** Emplea funciones de tiempo `cubic-bezier` en CSS para simular un salto natural basado en la gravedad.
+*   **Sistema de Colisiones:** Implementa un motor de detección de alta precisión utilizando `getBoundingClientRect()` para detectar impactos incluso en el aire.
+*   **Sistema de Puntuación:** Un contador en tiempo real que rastrea el tiempo de supervivencia.
+*   **Manejo de Eventos:** Escucha entradas del teclado (barra `Espaciadora`) para activar las acciones.
 
-1.  **Clone the repository:**
+### 🛠️ Habilidades Técnicas
+*   Lógica de *game loop* y gestión de estados.
+*   Animaciones mediante **CSS Keyframes**.
+*   Detección de colisiones en tiempo real (Lógica de Hitbox 2D).
+*   Programación asíncrona (`setTimeout` e `setInterval`).
+
+---
+
+## 🚀 Primeros Pasos
+
+Puedes ejecutar estos proyectos localmente sin necesidad de instalaciones complejas ni servidores.
+
+1.  **Clona el repositorio:**
     ```bash
-    git clone (https://github.com/lordo0174/JavaScript-Mini-Project.git)
+    git clone [https://github.com/lordo0174/JavaScript-Mini-Project.git](https://github.com/lordo0174/JavaScript-Mini-Project.git)
