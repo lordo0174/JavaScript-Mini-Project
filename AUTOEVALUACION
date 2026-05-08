@@ -1,0 +1,12 @@
+PREGUNTAS DE AUTOEVALUACIÓN
+1. ¿Qué parte te resultó más difícil de implementar?
+
+La parte más dificil fue implementar la lógica de Game Over para que, al perder, aparezca una pantalla mostrando el total de puntos alcanzados. Esto requirió una sincronización precisa para detener el estado del juego y, simultáneamente, capturar la puntuación final para mostratla al usuario.
+
+2. ¿Añadiste alguna funcionalidad extra (Bonus)?
+
+Además de los extras sugeridos, modifiqué la función de salto del personaje. En lugar de un movimiento "lineal", desarrollé un salto estético con un arco más suave, logrando que la animación se sienta más fluida y menos robótica.
+
+3. ¿Funciona correctamente en todos los navegadores?
+
+He probado y confirmado específicamente la funcionalidad del proyecto en Google Chrome y Microsoft Edge, donde tanto el CSS Grid como las animaciones se renderizan correctamente.
