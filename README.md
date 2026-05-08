@@ -43,4 +43,4 @@ Puedes ejecutar estos proyectos localmente sin necesidad de instalaciones comple
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/lordo0174/JavaScript-Mini-Project.git](https://github.com/lordo0174/JavaScript-Mini-Project.git)
+    git clone (https://github.com/lordo0174/JavaScript-Mini-Project.git)
